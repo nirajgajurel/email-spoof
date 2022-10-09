@@ -7,7 +7,7 @@ Email Spoofer Tool for Spoofing EMAIL Addresses. 100% Inbox Rate with orginal em
 <p align="center"><b>Buy Spoofy License Key for Only 15$.</b></p>
 <p align="center"><b>Buy Spoofy License Key for GUI VERSION BULK EMAILS Only 60$.</b></p>
 
-<p>GUI Version : --> </p> < a href="https://qayqal.com">Click Here for GUI Version</a>
+<p>GUI Version : --> </p> <a href="https://qayqal.com">Click Here for GUI Version</a>
 
 ### [+] Disclaimer :
 ***The Spoofy aka Gmail Spoofer tool is for educational purposes only. Iam not responsible if you missue it***
