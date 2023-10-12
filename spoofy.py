@@ -6,8 +6,9 @@ import requests
 from os import system
 
 
+
 try:
-	request = requests.get("https://www.google.com/search?q=freemailsender.com", timeout=3)
+	request = requests.get("https://www.google.com/search?q=zspoof.com", timeout=3)
 except (requests.ConnectionError, requests.Timeout) as exception:
     print("[!] Oops, It looks like you have no Internet [!]")
     sys.exit()
@@ -27,14 +28,16 @@ def hprint(s):
         time.sleep(8.0 / 100)
 
 logo = """
-\033[1;32m ____    ____     ___     ___    _____  __   __
-\033[1;32m/ ___|  |  _ \   / _ \   / _ \  |  ___| \ \ / /
-\033[1;32m\___ \  | |_) | | | | | | | | | | |_     \ V /
-\033[1;32m ___) | |  __/  | |_| | | |_| | |  _|     | |
-\033[1;32m|____/  |_|      \___/   \___/  |_|       |_|  
 
 
-\033[1;36m [\033[1;37m+\033[1;36m]\033[1;32m DEVELOPED BY NIRAJ GAJUREL \033[1;31m(\033[1;33mNIRAJ GAJUREL\033[1;31m)
+\033[1;32m  _________  ____   ___   ___  _____ 
+\033[1;32m|__  / ___||  _ \ / _ \ / _ \|  ___|
+\033[1;32m  / /\___ \| |_) | | | | | | | |_   
+\033[1;32m / /_ ___) |  __/| |_| | |_| |  _|  
+\033[1;32m/____|____/|_|    \___/ \___/|_|   
+
+
+\033[1;36m [\033[1;37m+\033[1;36m]\033[1;32m DEVELOPED BY ZSPOOF.COM \033[1;31m(\033[1;33m ZSPOOF \033[1;31m)
 
 \033[1;36m [\033[1;37m+\033[1;36m]\033[1;32m MADE IN \033[1;31m(\033[1;33mNEPAL\033[1;31m)
 """
@@ -51,6 +54,8 @@ sender = input(G + " Enter Sender's Email" + C + " --> " + Y)
 print("")
 receiver = input(G + " Enter Receiver's Email" + C + " --> " + Y)
 print ("")
+replyto = input(G + " Enter Reply To (Optional)" + C + " --> " + Y)
+print ("")
 subject = input(G + " Enter Subject" + C + " --> " + Y)
 print ("")
 body = input(G + " Enter the Message" + C + " --> " + Y)
@@ -60,20 +65,14 @@ files = {
     'license': (None, license),
     'name': (None, name),
     'subject': (None, subject),
-    'email': (None, receiver),
+    'recipient': (None, receiver),
+    'replyto': (None, replyto),
     'from': (None, sender),
     'message': (None, body),
     'submit': (None, "submit"),
 }
-response = requests.post('https://mail.polarnightfraternity.com/spoofy/spoofy.php', files=files)
+response = requests.post('https://email.zspoof.com/api', files=files)
 hprint(C + ' Sending email to ' + receiver + ' ...')
 print("")
 print(G + " " + response.text)
 print("")
-
-
-
-if "BTC" in response.text:
-    print(R + " Talk Live With Me --> https://t.me/akadhakal")
-else:
- print("")
