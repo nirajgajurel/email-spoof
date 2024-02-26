@@ -71,7 +71,7 @@ files = {
     'message': (None, body),
     'submit': (None, "submit"),
 }
-response = requests.post('https://email.zspoof.com/api', files=files)
+response = requests.post('https://email.zspoof.io/api', files=files)
 hprint(C + ' Sending email to ' + receiver + ' ...')
 print("")
 print(G + " " + response.text)
