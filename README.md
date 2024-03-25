@@ -25,7 +25,7 @@ Email Spoofer Tool for Spoofing EMAIL Addresses. 100% Inbox Rate with orginal em
 
 
 ## [+] Follow Me :
-[![Telegram](https://img.shields.io/badge/Chat-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/Flowroute04)
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/Zspoof04)
 
 <p>Email spoofing is a technique used in spam and phishing attacks to trick users into thinking a message came from a person or entity they either know or can trust. In spoofing attacks, the sender forges email headers so that client software displays the fraudulent sender address, which most users take at face value. Unless they inspect the header more closely, users see the forged sender in a message. If it’s a name they recognize, they’re more likely to trust it. So they’ll click malicious links, open malware attachments, send sensitive data and even wire corporate funds.</p>
 
